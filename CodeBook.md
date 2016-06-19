@@ -28,7 +28,9 @@ Run_Analysis.R script performs the following steps to generate tidy_data.csv:
     Character values denoting the type of activity.
     Levels: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING and LAYING.
 
-### 3. Measurements on the mean and standard deviation for each measurement extracted from .
+### 3. Measurements
+
+The mean and standard deviation for each measurement extracted from original data set.
 
 * [1] "subject"
 * [2] "label"                      
@@ -118,9 +120,11 @@ The set of variables that were estimated from these signals are:
 * std(): Standard deviation
 
 The above variables where choosen as they included either mean or std in their original names:
+
 	tBodyAcc, tGravityAcc, tBodyAccJerk, tBodyGyro, tBodyGyroJerk, tBodyAccMag,
 	tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag, fBodyAcc, fBodyAccJerk, 
 	fBodyGyro, fBodyAccMag, fBodyBodyAccJerkMag, fBodyBodyGyroMag, fBodyBodyGyroJerkMag.
+
 A full description is available at the site where the data was obtained: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 
