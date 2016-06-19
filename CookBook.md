@@ -11,7 +11,7 @@ Here are the data for the project: https://d396qusza40orc.cloudfront.net/getdata
 
 The new data set tidy_data.txt is created by running the Run_Analysis.R script.
 
-Run_Analysis.R script performs the following steps to generate tidy_data.txt:
+Run_Analysis.R script performs the following steps to generate tidy_data.csv:
 * 1. Merges the training and the test sets to create one data set.
 * 2. Extracts only the measurements on the mean and standard deviation. 
 * 3. Uses the activity labels data set to assign descriptive activity names in the data set
