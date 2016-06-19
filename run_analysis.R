@@ -32,8 +32,6 @@ train_x <- read.table("./train/X_train.txt")
 readLines("./train/y_train.txt", n = 2L)
 train_y <- read.table("./train/y_train.txt")
 
-##  library(reshape2)
-
 ## read the labels
 features <- read.table("./features.txt")
 activity_labels <- read.table("./activity_labels.txt")
